@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Remotes -->
+  <remote name="mayuresh"
+          fetch="https://github.com/mayuresh2543"
+          clone-depth="1" />
+  <remote name="linag"
+          fetch="https://github.com/LineageOS"
+          clone-depth="1" />
+  <remote name="lindroid"
+          fetch="https://github.com/Linux-on-droid"
+          clone-depth="1" />
+
+  <!-- Device Tree -->
+  <project path="device/xiaomi/stone"
+           name="device_xiaomi_stone_new"
+           remote="mayuresh"
+           revision="lineage-22.2" />
+
+  <!-- Vendor -->
+  <project path="vendor/xiaomi/stone"
+           name="vendor_xiaomi_stone"
+           remote="mayuresh"
+           revision="lineage-22.2" />
+
+  <!-- Kernel -->
+  <!-- TODO: уточни репозиторий и ветку ядра -->
+  <!-- <project path="kernel/xiaomi/stone"
+             name="kernel_xiaomi_stone_rebase"
+             remote="mayuresh"
+             revision="???" /> -->
+
+  <!-- Common Xiaomi Hardware Tree -->
+  <project path="hardware/xiaomi"
+           name="android_hardware_xiaomi"
+           remote="linag"
+           revision="lineage-22.2" />
+
+  <!-- Lindroid -->
+  <project path="vendor/lindroid"
+           name="vendor_lindroid"
+           remote="lindroid"
+           revision="main" />
+  <project path="external/lxc"
+           name="external_lxc"
+           remote="lindroid"
+           revision="main" />
+  <project path="external/libhybris"
+           name="libhybris"
+           remote="lindroid"
+           revision="main" />
+
+</manifest>
