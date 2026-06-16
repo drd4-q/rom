@@ -28,7 +28,7 @@
   <project path="kernel/xiaomi/stone"
              name="kernel_xiaomi_stone"
              remote="gawasvedraj"
-             revision="main" />
+             revision="master" />
 
   <!-- Common Xiaomi Hardware Tree -->
   <project path="hardware/xiaomi"
