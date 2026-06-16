@@ -25,11 +25,10 @@
            revision="lineage-22.2" />
 
   <!-- Kernel -->
-  <!-- TODO: уточни репозиторий и ветку ядра -->
-  <!-- <project path="kernel/xiaomi/stone"
-             name="kernel_xiaomi_stone_rebase"
-             remote="mayuresh"
-             revision="???" /> -->
+  <project path="kernel/xiaomi/stone"
+             name="kernel_xiaomi_stone"
+             remote="gawasvedraj"
+             revision="main" />
 
   <!-- Common Xiaomi Hardware Tree -->
   <project path="hardware/xiaomi"
