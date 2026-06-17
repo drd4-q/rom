@@ -11,6 +11,15 @@
   <remote name="lindroid"
           fetch="https://github.com/Linux-on-droid"
           clone-depth="1" />
+  <remote name="gawas"
+          fetch="https://github.com/gawasvedraj"
+          clone-depth="1" />
+  <remote name="evox"
+          fetch="https://github.com/Evolution-X-Devices"
+          clone-depth="1" />
+  <remote name="jyrrc"
+          fetch="https://github.com/JYRRC"
+          clone-depth="1" />
 
   <!-- Device Tree -->
   <project path="device/xiaomi/stone"
@@ -26,9 +35,9 @@
 
   <!-- Kernel -->
   <project path="kernel/xiaomi/stone"
-             name="kernel_xiaomi_stone"
-             remote="gawasvedraj"
-             revision="master" />
+           name="kernel_xiaomi_stone"
+           remote="gawas"
+           revision="master" />
 
   <!-- Common Xiaomi Hardware Tree -->
   <project path="hardware/xiaomi"
@@ -48,6 +57,18 @@
   <project path="external/libhybris"
            name="libhybris"
            remote="lindroid"
+           revision="main" />
+
+  <!-- ViPER4Android -->
+  <project path="packages/apps/ViPER4AndroidFX"
+           name="packages_apps_ViPER4AndroidFX"
+           remote="evox"
+           revision="main" />
+
+  <!-- BCR (Basic Call Recorder) -->
+  <project path="vendor/bcr"
+           name="android_vendor_bcr"
+           remote="jyrrc"
            revision="main" />
 
 </manifest>
