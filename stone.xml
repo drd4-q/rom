@@ -5,9 +5,6 @@
   <remote name="mayuresh"
           fetch="https://github.com/mayuresh2543"
           clone-depth="1" />
-  <remote name="linag"
-          fetch="https://github.com/LineageOS"
-          clone-depth="1" />
   <remote name="lindroid"
           fetch="https://github.com/Linux-on-droid"
           clone-depth="1" />
@@ -39,21 +36,15 @@
            remote="gawas"
            revision="master" />
 
-  <!-- Common Xiaomi Hardware Tree -->
-  <project path="hardware/xiaomi"
-           name="android_hardware_xiaomi"
-           remote="linag"
-           revision="lineage-22.2" />
-
   <!-- Lindroid -->
   <project path="vendor/lindroid"
            name="vendor_lindroid"
            remote="lindroid"
-           revision="main" />
+           revision="lindroid-22.1" />
   <project path="external/lxc"
            name="external_lxc"
            remote="lindroid"
-           revision="main" />
+           revision="lindroid-22.1" />
   <project path="external/libhybris"
            name="libhybris"
            remote="lindroid"
